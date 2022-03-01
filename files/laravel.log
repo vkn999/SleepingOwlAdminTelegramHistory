@@ -1,0 +1,76 @@
+[2017-09-08 18:19:01] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Cannot use App\Model\Forms\Form as Form because the name is already in use in C:\wamp64\www\demo.soa\admin\Http\Sections\Forms\FormButtons.php:11
+Stack trace:
+#0 {main}  
+[2017-09-08 18:46:57] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Cannot use App\Model\Forms\Form as Form because the name is already in use in C:\wamp64\www\demo.soa\admin\Http\Sections\Forms\FormButtons.php:11
+Stack trace:
+#0 {main}  
+[2017-09-08 18:47:47] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Cannot use App\Model\Forms\Form as Form because the name is already in use in C:\wamp64\www\demo.soa\admin\Http\Sections\Forms\FormButtons.php:11
+Stack trace:
+#0 {main}  
+[2017-09-08 18:55:03] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Cannot use App\Model\Forms\Form as Form because the name is already in use in C:\wamp64\www\demo.soa\admin\Http\Sections\Forms\FormButtons.php:11
+Stack trace:
+#0 {main}  
+[2017-09-11 07:16:54] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Cannot use App\Model\Forms\Form as Form because the name is already in use in C:\wamp64\www\demo.soa\admin\Http\Sections\Forms\FormButtons.php:11
+Stack trace:
+#0 {main}  
+[2017-09-11 07:21:30] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Cannot use App\Model\Forms\Form as Form because the name is already in use in C:\wamp64\www\demo.soa\admin\Http\Sections\Forms\FormButtons.php:11
+Stack trace:
+#0 {main}  
+[2017-09-11 07:26:52] local.ERROR: ReflectionException: Class App\Model\Forms\Form does not exist in C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\Container.php:729
+Stack trace:
+#0 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\Container.php(729): ReflectionClass->__construct('App\\Model\\Forms...')
+#1 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\Container.php(608): Illuminate\Container\Container->build('App\\Model\\Forms...')
+#2 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\Container.php(575): Illuminate\Container\Container->resolve('App\\Model\\Forms...')
+#3 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(728): Illuminate\Container\Container->make('App\\Model\\Forms...')
+#4 C:\wamp64\www\demo.soa\vendor\laravelrus\sleepingowl\src\Model\ModelConfigurationManager.php(114): Illuminate\Foundation\Application->make('App\\Model\\Forms...')
+#5 C:\wamp64\www\demo.soa\vendor\laravelrus\sleepingowl\src\Model\SectionModelConfiguration.php(17): SleepingOwl\Admin\Model\ModelConfigurationManager->__construct(Object(Illuminate\Foundation\Application), 'App\\Model\\Forms...')
+#6 C:\wamp64\www\demo.soa\vendor\laravelrus\sleepingowl\src\Admin.php(127): SleepingOwl\Admin\Model\SectionModelConfiguration->__construct(Object(Illuminate\Foundation\Application), 'App\\Model\\Forms...')
+#7 C:\wamp64\www\demo.soa\vendor\laravelrus\sleepingowl\src\Providers\AdminSectionsServiceProvider.php(34): SleepingOwl\Admin\Admin->registerSections(Array)
+#8 C:\wamp64\www\demo.soa\admin\Providers\AdminSectionsServiceProvider.php(82): SleepingOwl\Admin\Providers\AdminSectionsServiceProvider->boot(Object(SleepingOwl\Admin\Admin))
+#9 [internal function]: Admin\Providers\AdminSectionsServiceProvider->boot(Object(SleepingOwl\Admin\Admin))
+#10 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(29): call_user_func_array(Array, Array)
+#11 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#12 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Illuminate\Foundation\Application), Array, Object(Closure))
+#13 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\Container.php(539): Illuminate\Container\BoundMethod::call(Object(Illuminate\Foundation\Application), Array, Array, NULL)
+#14 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(788): Illuminate\Container\Container->call(Array)
+#15 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(771): Illuminate\Foundation\Application->bootProvider(Object(Admin\Providers\AdminSectionsServiceProvider))
+#16 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}(Object(Admin\Providers\AdminSectionsServiceProvider), 16)
+#17 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(772): array_walk(Array, Object(Closure))
+#18 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#19 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#20 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#21 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#22 C:\wamp64\www\demo.soa\artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 {main}  
+[2017-09-11 08:01:53] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Cannot use App\Model\Forms\Form as Form because the name is already in use in C:\wamp64\www\demo.soa\admin\Http\Sections\Forms\FormButtons.php:11
+Stack trace:
+#0 {main}  
+[2017-09-11 08:03:03] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Cannot use App\Model\Forms\Form as Form because the name is already in use in C:\wamp64\www\demo.soa\admin\Http\Sections\Forms\FormButtons.php:11
+Stack trace:
+#0 {main}  
+[2017-09-11 08:04:07] local.ERROR: ReflectionException: Class App\Model\Forms\Form does not exist in C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\Container.php:729
+Stack trace:
+#0 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\Container.php(729): ReflectionClass->__construct('App\\Model\\Forms...')
+#1 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\Container.php(608): Illuminate\Container\Container->build('App\\Model\\Forms...')
+#2 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\Container.php(575): Illuminate\Container\Container->resolve('App\\Model\\Forms...')
+#3 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(728): Illuminate\Container\Container->make('App\\Model\\Forms...')
+#4 C:\wamp64\www\demo.soa\vendor\laravelrus\sleepingowl\src\Model\ModelConfigurationManager.php(114): Illuminate\Foundation\Application->make('App\\Model\\Forms...')
+#5 C:\wamp64\www\demo.soa\vendor\laravelrus\sleepingowl\src\Model\SectionModelConfiguration.php(17): SleepingOwl\Admin\Model\ModelConfigurationManager->__construct(Object(Illuminate\Foundation\Application), 'App\\Model\\Forms...')
+#6 C:\wamp64\www\demo.soa\vendor\laravelrus\sleepingowl\src\Admin.php(127): SleepingOwl\Admin\Model\SectionModelConfiguration->__construct(Object(Illuminate\Foundation\Application), 'App\\Model\\Forms...')
+#7 C:\wamp64\www\demo.soa\vendor\laravelrus\sleepingowl\src\Providers\AdminSectionsServiceProvider.php(34): SleepingOwl\Admin\Admin->registerSections(Array)
+#8 C:\wamp64\www\demo.soa\admin\Providers\AdminSectionsServiceProvider.php(82): SleepingOwl\Admin\Providers\AdminSectionsServiceProvider->boot(Object(SleepingOwl\Admin\Admin))
+#9 [internal function]: Admin\Providers\AdminSectionsServiceProvider->boot(Object(SleepingOwl\Admin\Admin))
+#10 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(29): call_user_func_array(Array, Array)
+#11 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#12 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Illuminate\Foundation\Application), Array, Object(Closure))
+#13 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Container\Container.php(539): Illuminate\Container\BoundMethod::call(Object(Illuminate\Foundation\Application), Array, Array, NULL)
+#14 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(788): Illuminate\Container\Container->call(Array)
+#15 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(771): Illuminate\Foundation\Application->bootProvider(Object(Admin\Providers\AdminSectionsServiceProvider))
+#16 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}(Object(Admin\Providers\AdminSectionsServiceProvider), 16)
+#17 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(772): array_walk(Array, Object(Closure))
+#18 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#19 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(208): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#20 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#21 C:\wamp64\www\demo.soa\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#22 C:\wamp64\www\demo.soa\artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 {main}  

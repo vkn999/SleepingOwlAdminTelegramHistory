@@ -1,0 +1,11 @@
+diff --git a/src/Form/Related/ManipulatesRequestRelations.php b/src/Form/Related/ManipulatesRequestRelations.php
+index ce1a67ccaad0ee5bd1ce51451b75a2613dd69368..0f229f3461e860be5ce79fdcbdb9502fef0ad868 100644
+--- a/src/Form/Related/ManipulatesRequestRelations.php
++++ b/src/Form/Related/ManipulatesRequestRelations.php
+@@ -62,4 +62,4 @@ trait ManipulatesRequestRelations
+ 
+         $request->merge([$this->relationName => $newData]);
+     }
+-}
+\ No newline at end of file
++}
